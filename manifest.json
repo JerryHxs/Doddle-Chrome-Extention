@@ -2,5 +2,10 @@
     "manifest_version": 3,
     "name": "p5 Sketch Workshop",
     "version": "0.1",
-    
+    "content_scripts": [{
+        "matches": [
+           "<call_urls>" 
+        ],
+        "js": ["p5.js", "sketch.sj"]
+    }]
 }
