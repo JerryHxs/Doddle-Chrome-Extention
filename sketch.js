@@ -12,6 +12,6 @@ function draw(){
         stroke(0);
         strokeWeight(4);
         //pmouseX is prev x pos of mouse, amking a line to draw on the page
-        line(mouseX, mouseY, pmouseX, pmouseY)
+        line(mouseX, mouseY, pmouseX, pmouseY);
     }
 }
